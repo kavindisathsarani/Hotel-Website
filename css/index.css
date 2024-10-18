@@ -1,14 +1,33 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
+.navbar-collapse {
+  position: absolute;
+  right: 0;
+}
+
+/* Navbar settings */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(2, 62, 118); /* Background color for navbar */
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 0;
+}
 .navbar {
   margin: 0;
   padding: 0;
 }
 .container-fluid {
-  background-color: rgb(26, 75, 122);
+  background-color: rgb(2, 62, 118);
 }
 
 .nav-item > a {
