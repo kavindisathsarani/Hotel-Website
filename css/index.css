@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background-color: rgb(102, 202, 236);
+}
+
+.nav-item > a {
+  color: aliceblue;
+}
+
+#carouselExampleCaptions img {
+  height: 75vh;
+  object-fit: cover;
+}
