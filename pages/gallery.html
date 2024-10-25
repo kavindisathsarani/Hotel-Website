@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="/css/gallery.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assests/images/dd301d90-6e64-48f7-adce-fa545dcdc352.jpg"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            REGAL HOTEL
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/about.html"> About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rooms & Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Gallery</h1>
+        <h2>A glimpse at our hotel</h2>
+        <!-- Nav Tabs -->
+        <ul class="nav nav-tabs" id="galleryTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="all-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#all"
+              type="button"
+              role="tab"
+              aria-controls="all"
+              aria-selected="true"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="accommodation-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#accommodation"
+              type="button"
+              role="tab"
+              aria-controls="accommodation"
+              aria-selected="false"
+            >
+              Accommodation
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="dining-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#dining"
+              type="button"
+              role="tab"
+              aria-controls="dining"
+              aria-selected="false"
+            >
+              Dining
+            </button>
+          </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="galleryTabContent">
+          <!-- All Tab Content -->
+          <div
+            class="tab-pane fade show active"
+            id="all"
+            role="tabpanel"
+            aria-labelledby="all-tab"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-fotoaibe-1743231.jpg"
+                  class="img-fluid"
+                  alt="Room 1"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-pixabay-258154.jpg"
+                  class="img-fluid"
+                  alt="Bathroom 1"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-pixabay-164595.jpg"
+                  class="img-fluid"
+                  alt="Room 2"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-heyho-6758528.jpg"
+                  class="img-fluid"
+                  alt="Room 2"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-quark-studio-1159039-2507010.jpg"
+                  class="img-fluid"
+                  alt="Room 2"
+                />
+              </div>
+
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-pixabay-261102.jpg"
+                  class="img-fluid"
+                  alt="Room 2"
+                />
+              </div>
+
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-elevate-1267320.jpg"
+                  class="img-fluid"
+                  alt="Room 2"
+                />
+              </div>
+
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-chanwalrus-958545.jpg"
+                  class="img-fluid"
+                  alt="Room 2"
+                />
+              </div>
+
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-enginakyurt-29060110.jpg"
+                  class="img-fluid"
+                  alt="Room 2"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Accommodation Tab Content -->
+          <div
+            class="tab-pane fade"
+            id="accommodation"
+            role="tabpanel"
+            aria-labelledby="accommodation-tab"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-pixabay-261102.jpg"
+                  class="img-fluid"
+                  alt="Accommodation 1"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-pixabay-164595.jpg"
+                  class="img-fluid"
+                  alt="Accommodation 2"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-fotoaibe-1743231.jpg"
+                  class="img-fluid"
+                  alt="Accommodation 2"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Dining Tab Content -->
+          <div
+            class="tab-pane fade"
+            id="dining"
+            role="tabpanel"
+            aria-labelledby="dining-tab"
+          >
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-chanwalrus-958545.jpg"
+                  class="img-fluid"
+                  alt="Dining 1"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-enginakyurt-29060110.jpg"
+                  class="img-fluid"
+                  alt="Dining 2"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="/assests/images/pexels-elevate-1267320.jpg"
+                  class="img-fluid"
+                  alt="Dining 2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <!-- Contact Info Section -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
+            <p>
+              <i class="fas fa-home mr-3"></i> 123 Street Name, City, Country
+            </p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +123 456 7890</p>
+          </div>
+
+          <!-- Social Media Section -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+            <a href="#" class="text-white"
+              ><i class="fab fa-facebook-f mr-4"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-twitter mr-4"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-instagram mr-4"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-linkedin mr-4"></i
+            ></a>
+          </div>
+
+          <!-- Links Section -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >About Us</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Services</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Contact</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >Privacy Policy</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8 col-lg-8">
+            <p class="text-center">
+              &copy; 2024 Regal Hotel. All Rights Reserved | Designed by Kavindi
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5: Add this link to use icons (FontAwesome) -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
