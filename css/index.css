@@ -89,3 +89,13 @@ h5 {
   font-family: fantasy;
   font-weight: 400;
 }
+
+.light-blue-bg {
+  background-color: #e3f2fd; /* Light blue color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for a soft look */
+}
+
+.d-grid {
+  align-self: center;
+}
