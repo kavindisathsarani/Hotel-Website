@@ -47,12 +47,14 @@ body {
   font-size: 1rem;
 }
 
-#carouselExampleCaptions img {
-  height: 75vh;
+.carousel-item img {
+  height: 85vh;
+  width: 100%;
   object-fit: cover;
 }
 
-h2 {
+h1 {
+  margin-top: 10px;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -61,31 +63,21 @@ h2 {
 p {
   text-align: center;
   padding: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.booking-form {
-  background-color: #03a9f4;
+.img-fluid {
+  height: 40vw;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  text-align: center;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.booking-form input,
-.booking-form select {
-  border: none;
-  border-radius: 5px;
-}
-.btn-book {
-  background-color: #3651e4;
-  color: white;
-  border-radius: 0 10px 10px 0;
-}
-.btn-book:hover {
-  background-color: #1234f2;
-}
-
-h5 {
-  font-family: fantasy;
-  font-weight: 400;
 }

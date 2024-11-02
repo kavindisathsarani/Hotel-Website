@@ -10,6 +10,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <!-- css file -->
     <link rel="stylesheet" href="/css/index.css" />
     <title>Regal Hotel</title>
@@ -51,13 +56,13 @@
                 <a class="nav-link" href="/pages/gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Rooms & Rates</a>
+                <a class="nav-link" href="/pages/facility.html">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Booking</a>
+                <a class="nav-link" href="/pages/booking.html">Booking</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
+                <a class="nav-link" href="/pages/event.html">Events</a>
               </li>
             </ul>
           </div>
@@ -148,6 +153,50 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+      </section>
+      <section>
+        <div class="container my-5">
+          <div class="text-center mb-4">
+            <h5>Best Rate Guaranteed</h5>
+          </div>
+          <div class="booking-form d-flex align-items-center">
+            <div class="flex-grow-1 d-flex">
+              <div class="me-3">
+                <select class="form-select">
+                  <option selected>Destinations</option>
+                  <option>Location 1</option>
+                  <option>Location 2</option>
+                  <option>Location 3</option>
+                </select>
+              </div>
+              <div class="me-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="11/09/2024 - 11/16/2024"
+                  onfocus="(this.type='date')"
+                />
+              </div>
+              <div class="me-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Rooms: 1 Adults: 1 Children: 0"
+                />
+              </div>
+              <div class="me-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Promo Code"
+                />
+              </div>
+            </div>
+            <a href="/pages/booking.html"
+              ><button class="btn btn-book">BOOK NOW</button></a
+            >
+          </div>
         </div>
       </section>
       <br />
